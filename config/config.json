@@ -1,0 +1,53 @@
+{
+    "browser": {
+        "headless": false,
+        "timeout": 30000,
+        "navigationTimeout": 30000,
+        "executablePath": "",
+        "userDataDir": "",
+        "userAgent": "",
+        "viewport": {
+            "width": 1366,
+            "height": 768
+        },
+        "launchOptions": {
+            "args": []
+        }
+    },
+
+    "scraper": {
+        "maxRetries": 2,
+        "retryDelay": 1000,
+        "delayBetweenProfiles": 1000,
+        "concurrency": 1
+    },
+
+    "instagram": {
+        "baseUrl": "https://www.instagram.com",
+        "graphqlTimeout": 15000
+    },
+
+    "website": {
+        "timeout": 10000,
+        "maxDepth": 2,
+        "maxPages": 20,
+        "followRedirects": true
+    },
+
+    "paths": {
+        "input": "./input",
+        "output": "./output",
+        "logs": "./logs",
+        "browserProfile": ""
+    },
+
+    "output": {
+        "prettyPrint": true,
+        "directory": "./output"
+    },
+
+    "logging": {
+        "level": "info",
+        "timestamps": true
+    }
+}
