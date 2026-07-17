@@ -258,11 +258,7 @@ function createLead() {
 
             googleTagManager: createTracker(),
 
-            tiktokPixel: createTracker(),
-
             pinterestPixel: createTracker(),
-
-            snapchatPixel: createTracker(),
 
             microsoftClarity: createTracker(),
 
